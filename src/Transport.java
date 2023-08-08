@@ -1,4 +1,4 @@
-public class Transport implements  Servicable{
+public abstract class Transport implements  Servicable{
     private final String modelName;
     private final int wheelsCount;
     public Transport(String modelName, int wheelsCount) {
